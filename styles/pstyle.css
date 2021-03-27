@@ -69,6 +69,10 @@
     font-weight: 600;
 }
 
+.imgcenter{
+    display: block;
+    margin: auto;
+}
 
 @media only screen and (max-width: 1355px) {
     .imagea{
@@ -90,5 +94,11 @@
     .article{
         width: 85%;
         padding-left: 6%;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+    .imgcenter{
+        width: 75%;
     }
 }
